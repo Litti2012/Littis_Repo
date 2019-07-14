@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.shieldtvde" name="[B][COLORlime]SHIELDTV[/COLOR][/B][COLORwhite] DE -  KODI REPOSITORY[/COLOR]" version="1.0.2" provider-name="ShieldTV DE, SGK">
+    <extension point="xbmc.addon.repository" name="Kodi Addons + Repos">
+		<info compressed="false">http://shieldtv.de/Repo/daten/addons.xml</info>
+		<checksum>http://shieldtv.de/Repo/daten/addons.xml.md5</checksum>
+		<datadir zip="true">http://shieldtv.de/Repo/daten/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">[COLORlime]NVIDIA Shield TV[/COLOR] Germany - Kodi Repository</summary>
+        <description lang="de_DE">[CR]Kontakt+Support:[CR][COLORlime]https://www.facebook.com/groups/shieldtvgermany[/COLOR][CR][CR][COLORred]Der Ersteller des Repository ist nicht der Ersteller der enthaltenen Addons/Repos und somit nicht verantwortlich für den Inhalt![/COLOR]</description>
+        <disclaimer lang="de_DE">Some parts of this repo may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+    	<platform>all</platform>
+		<assets>
+        <screenshot>resources/screenshot1.png</screenshot>
+        <screenshot>resources/screenshot2.png</screenshot>
+		<screenshot>resources/screenshot3.png</screenshot>
+		<screenshot>resources/screenshot4.png</screenshot>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>

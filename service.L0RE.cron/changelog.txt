@@ -1,0 +1,10 @@
+﻿[B]Version 0.1  (29.03.2018)[/B]
+- Initial release
+...
+
+[B]Version 1.0.1  (07.10.2018)[/B] by realvito
+- fixed: Bei jedem autom. Update der vom User gemachten Einträge wird nicht die aktuelle Uhrzeit übergeben
+- fixed: Ausführung/Update der vom User gemachten Einträge findet unabhängig des übergebenen Stunden-Intervalls - immer stündlich statt
+- optimized: Man kann jetzt sowohl den Eintrag in "Crontab" als auch den erstellten Ordner der Serie in der KODI-Medienbibliothek löschen (settings)
+- optimized: Script komplett überarbeitet
+- added: Direkte LOG-Meldungen sowohl bei normaler Ausführung als auch bei Fehlern (nicht Debugmodus)

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.repotester" name="[COLOR blue]HSK-DE REPO TESTER[/COLOR]" version="1.0.2" provider-name="Kodiman | Loki1979">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>HSK-DE REPO TESTER</summary>
+<description>Facebook: https://www.facebook.com/groups/hskde/
+Forum: https://www.kodiman.net/
+
+Dieses Program-Addon testet die in Kodi installierten Repositories auf ihre Verfügbarkeit.</description>
+	</extension>
+</addon>

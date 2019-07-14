@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="plugin.video.7tvneu" name="7TV" version="1.0.1" provider-name="L0RE">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">7TV Mediathek</summary>
+		<summary lang="en">7TV Mediathek</summary>
+		<description lang="de">Alle Sendungen der Free-TV-Sender von ProSiebenSat.1 und Discovery in der senderübergreifenden Mediathek.[CR]Bei 7TV genießen Sie den bequemen Zugang zu Ihrem Lieblingssender und zu vielem mehr.</description>
+		<description lang="en">All broadcasts of Free-TV-Stations from ProSiebenSat.1 and Discovery in the trans-media library.[CR]7TV gives you easy access to your favorite station and much more.</description>
+		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>https://www.kodinerds.net/index.php/Thread/55451-L0REs-Blog/</forum>
+		<website>https://www.7tv.de</website>
+		<email></email>
+		<source>https://github.com/kodinerds/repo/tree/master/plugin.video.7tvneu</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>[B][COLOR orangered]Version 1.0.1  (11.11.2018)[/COLOR][/B] by realvito[CR]
+- fixed: Im Ordner = "Beliebteste Sendungen" und im Ordner = Suche -> "Serien" werden KEINE Sendungstitel angezeigt (extrahiere Titel aus der URL)
+- fixed: Manche Addon-Favoriten werden NICHT richtig abgespeichert und lassen sich NICHT abspielen (Daten komprimiert)
+- optimized: Sendungs- und Video-Titelbild = Qualität und Grösse maximiert
+- optimized: Kleinere Scriptfehler eliminiert
+		</news>
+	</extension>
+</addon>

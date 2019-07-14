@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.rubtheduck" name="Rub The Duck Repo" version="1.0.0" provider-name="Publish3r">
+	<extension point="xbmc.addon.repository" name="Rub The Duck Repo">
+		<info compressed="true">https://rubtheduck.publish3r.com/addons.xml</info>
+		<checksum>https://rubtheduck.publish3r.com/addons.xml.md5</checksum>
+		<datadir zip="true">https://rubtheduck.publish3r.com/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en">[B][COLOR orange]RUB[/COLOR][COLOR blue] THE [/COLOR][COLOR orange]DUCK[/COLOR] [COLOR blue]REPOSITORY[/COLOR][CR]FOR ADULTS ONLY![/B][CR]https://is.gd/rubtheduck</description>
+		<platform>all</platform>
+                <website>https://is.gd/rubtheduck</website>
+	</extension>
+</addon>

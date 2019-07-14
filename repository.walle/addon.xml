@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.walle" name="Wallers-Skin-Repo" version="1.0.1" provider-name="[COLOR lime]Walle[/COLOR] | [COLOR aqua]Guido[/COLOR]">
+	<extension point="xbmc.addon.repository" name="Wallers REPO">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/Waller-Skins/Waller-Repository/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Waller-Skins/Waller-Repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Waller-Skins/Waller-Repository/master/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Wallers Repo</summary>
+		<description> Viel Spass und besucht mal meine Seite .
+https://waller-skins.jimdo.com/
+</description>
+		<platform>all</platform>
+        <forum></forum>
+        <website>https://waller-skins.jimdo.com/</website>
+	</extension>
+</addon>
+

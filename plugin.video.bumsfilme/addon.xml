@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.bumsfilme"
+       name="Bumsfilme.com"
+	   version="1.0.1"
+	   provider-name="loki1979">
+    <requires>
+        <import addon="xbmc.python" version="2.7.11" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="page.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Bumsfilme.com</summary>
+        <language></language>
+        <description>Webseite Bumsfilme.com : 
+https://bumsfilme.com/</description>
+        <platform>all</platform>
+    </extension>
+</addon>

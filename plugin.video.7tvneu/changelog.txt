@@ -1,0 +1,10 @@
+﻿0.1 
+- Initial Source
+
+...
+
+[B]Version 1.0.1  (11.11.2018)[/B] by realvito
+- fixed: Im Ordner = "Beliebteste Sendungen" und im Ordner = Suche -> "Serien" werden KEINE Sendungstitel angezeigt (extrahiere Titel aus der URL)
+- fixed: Manche Addon-Favoriten werden NICHT richtig abgespeichert und lassen sich NICHT abspielen (Daten komprimiert)
+- optimized: Sendungs- und Video-Titelbild = Qualität und Grösse maximiert
+- optimized: Kleinere Scriptfehler eliminiert

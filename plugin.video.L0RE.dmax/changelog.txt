@@ -1,0 +1,20 @@
+﻿[B]Version 0.1  (20.01.2018)[/B]
+- Initial release @L0RE
+- after web page changes
+...
+
+[B]Version 1.0.1  (07.10.2018)[/B] by realvito[CR]
+- fixed: in der Rubrik "Alle Sendungen" fehlen einige Serien
+- fixed: Vereinzelt werden KEINE Episoden angezeigt, obwohl Sie vorhanden sind (z.B. Specials)
+- fixed: Info-Meldung wenn zurzeit KEINE Episoden im Serien-Ordner verfügbar sind
+- fixed: Fehler wenn Abspielen mit "inputstream.adaptive" ausgewählt wurde, aber "inputstream.adaptive" NICHT aktiviert ist
+- added: Neueste Episoden im Ordner oben anzeigen (settings)
+- added: Eigene DMAX-Favoriten anlegen (RechtsKlick-Menü)
+- optimized: Die Rubrik "Themen" wird jetzt direkt von der WebSeite ausgelesen (damit Diese immer aktuell und vollständig ist)
+- optimized: Neue Struktur der "tvshow.nfo" für die Serie und neue Struktur der ".nfo" für jede Episode, wenn zur Medienbibliothek hinzufügen aktiviert ist (settings)
+- optimized: Übertragung von Umlauten in die KODI-Medienbibliothek (Filter für Sonderzeichen-Windows)
+- * WICHTIG : Es kann evtl. sein, dass zuvor mit diesem Addon angelegte Einträge in der KODI-Medienbibliothek neuerstellt werden müssen, weil sich die Namensstruktur geändert hat *
+
+[B]Version 1.0.2  (21.01.2019)[/B] by realvito[CR]
+- fixed: Fehler bei Auflistung der Serien, wenn KEIN Plot vorhanden ist
+- fixed: Rubrik "Highlights" - Fehler beim Öffnen vereinzelter Sendungen, da KEINE ID vorhanden ist (Sendungen ohne ID werden herausgefiltert)

@@ -1,0 +1,9 @@
+﻿id = plugin.program.addon.aktivator
+
+name = Kodi Addon Aktivator
+
+version = 1.0.0
+
+provider-name = Loki1979 | HSK-DE
+
+min-python-version = 2.7.11
