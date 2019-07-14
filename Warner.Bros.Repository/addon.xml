@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="Warner.Bros.Repository" name="[B][COLOR saddlebrown]WarnerBros [/B][/COLOR][B][COLOR silver]Repo[/B][/COLOR] " version="1.0.2" provider-name="Litti19928">
+<addon id="Warner.Bros.Repository" name="[B][COLOR saddlebrown]Warner Bros [/B][/COLOR][B][COLOR silver]Repo[/B][/COLOR]" version="1.0.2" provider-name="Litti19928">
 	<extension point="xbmc.addon.repository" name="Warner Bros Repository">
 		<info compressed="false">https://raw.githubusercontent.com/Litti2012/Warner_Bros_repo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Litti2012/Warner_Bros_repo/master/addons.xml.md5</checksum>
