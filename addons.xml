@@ -3058,4 +3058,24 @@ https://www.facebook.com/OpenKD</description>
   </extension>
   <size>15279144</size>
 </addon>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.Warner.Bros.Wizard" name="Warner Bros Wizard" version="1.0.2" provider-name="Litti19928">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="en">Warner Bros Wizard</summary>
+		<description lang="en"></description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+		</assets>
+	</extension>
+</addon>
 </addons>
