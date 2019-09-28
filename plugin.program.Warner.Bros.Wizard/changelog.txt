@@ -1,1 +1,0 @@
-Version 1.0.2   -  Initial Release by SGK 04.2019, Fix by Loki1979 26.04.2019
