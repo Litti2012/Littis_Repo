@@ -918,37 +918,7 @@ https://www.kinox.to</description>
   </extension>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.xstream" name="xStream" version="3.5.11~nightly-Litti19928" provider-name="xStream-Team">
- <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.urlresolver"/>
-   <import addon="script.module.metahandler" version="3.0.2.1"/>
-   <import addon="script.module.inputstreamhelper" version="0.3.3" optional="true"/>
-   <import addon="script.module.requests"/>
- </requires>
- <extension point="xbmc.python.pluginsource" library="default.py">
-   <provides>video</provides>
- </extension>
- <extension point="xbmc.addon.metadata">
-   <summary lang="de">Watch xStream!</summary>
-   <description lang="de">Mit diesem Addon kannst du auf alle angebotenen Streams verschiedenster deutschen Quellen zugreifen</description>
-   <disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
-   <source>https://github.com/streamxstream/plugin.video.xstream</source>
-   <license>GNU GPLv3</license>
-   <platform>all</platform>
-   <news>
-   xStream 3.5.11~nightly
-- [Kinoger] add hoster newcloud aka fsst.online
-   </news>
-   <assets>
-     <icon>icon.png</icon>
-     <fanart>fanart.jpg</fanart>
-     <screenshot>resources/art/screenshot-01.jpg</screenshot>
-     <screenshot>resources/art/screenshot-02.jpg</screenshot>
-   </assets>
- </extension>
-</addon>
+
 
 <addon id="repository.Absolut.Kodi" name="[COLOR dodgerblue]Absolut[/COLOR] [COLOR ghostwhite]Kodi[/COLOR] [COLOR dodgerblue]Repository[/COLOR]" version="1.0.1" provider-name="[COLOR dodgerblue]Absolut Kodi [COLOR ghostwhite]Team[/COLOR] | [COLOR red]El[COLOR white]Turko[/COLOR]">
     <extension point="xbmc.addon.repository" name="Kodianer NEU Repository">
