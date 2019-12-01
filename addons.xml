@@ -702,7 +702,7 @@ https://hdstreamfilme.com/</description>
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.kinox.to"
 		name="[COLOR blue]Kinox.to[/COLOR]"
-		version="1.0.2"
+		version="1.0.3"
 		provider-name="Loki1979 | HSK-DE">
 	<requires>
 		<import addon="xbmc.python" version="2.7.13" />
