@@ -1064,18 +1064,6 @@ xStream 3.5.11
     </extension>
 </addon>
 
-<addon id="repository.Ghost" name="[B][COLOR red]Ghost Repo[/COLOR][/B]" version="2.0.0" provider-name="Ghost">
-	<extension point="xbmc.addon.repository" name="Ghost Repo">
-		<info compressed="false">http://repoghost.de/Plugins/addons.xml</info>
-		<checksum>http://repoghost.de/Plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://repoghost.de/Plugins/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>[COLOR red]Ghost Repo[/COLOR]</summary>
-		<description>[COLOR red]Ghost Repo[/COLOR]</description>
-		<platform>all</platform>
-	</extension>
-</addon>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.hsk_forever" name="[COLOR magenta]HSK FOREVER[/COLOR]" version="1.0.16" provider-name="[COLOR magenta]SH Germania | KODIMAN | HSK-DE[/COLOR]">
