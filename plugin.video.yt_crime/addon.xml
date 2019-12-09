@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.yt_crime" name="Crime-Channels-YT" version="1.0.3" provider-name="Loki1979">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+    <import addon="plugin.video.youtube" version="6.4.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">Crime-Channels-YouTube</summary>
+    <description lang="de_DE">Crime Channels auf Youtube . Medical Detectivs ,TLC Crime,Dokus und viele mehr.</description>
+    <disclaimer lang="de_DE"></disclaimer>
+    <language>de</language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+        <banner></banner>
+        <clearlogo></clearlogo>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>
