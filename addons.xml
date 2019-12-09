@@ -459,7 +459,7 @@ Created by HSK-DE
 </addon>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.filmpalast_to" name="FilmPalast" version="1.1.6" provider-name="Lary_Loose|Litti19928">
+<addon id="plugin.video.filmpalast_to" name="FilmPalast" version="1.1.7" provider-name="Lary_Loose|Litti19928">
     <requires>
         <import addon="xbmc.python" version="2.7.13" />
         <!-- choose your resolver -->
