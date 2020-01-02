@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<settings>
-	<category label="EINSTELLUNGEN">
-		<setting label="[COLOR lime]SERVER[/COLOR]" type="enum" id="server_selection" values="0|1|2"/>
-		<setting label="[COLOR lime]VIEW MODE[/COLOR]" type="enum" id="view_mode" values="0|50|51|52|53|54|55|500|501|502"/>
-	</category>
-</settings>
