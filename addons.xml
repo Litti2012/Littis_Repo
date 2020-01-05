@@ -3562,4 +3562,35 @@ https://hdfilme.cc</description>
     <source>https://github.com/romanvm/script.module.simpleplugin</source>
   </extension>
 </addon>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.ntv.ru" version="0.2.2" name="НТВ" provider-name="vl.maksime">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.requests" version="2.12.4"/>
+        <import addon="script.module.simplemedia" version="1.0.5"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en"></summary>
+        <summary lang="ru">"НТВ" - является неофициальным дополнением для KODI.</summary>
+        <description lang="en"></description>
+        <description lang="ru">Дополнение позволяет смотреть самые качественные передачи, шоу, новости, сериалы, кино от ведущего российского телеканала. Более 24 часов видео ежедневно, днем и ночью. С помощью приложения вы сможете в любой момент быть в курсе всех событий, смотреть прямой телеэфир НТВ, полные выпуски и архив всех передач, которые когда-либо были показаны на экране.</description>
+        <disclaimer lang="en"></disclaimer>
+        <disclaimer lang="ru">Присоединитесь к миллионам посетителей НТВ.Ru!</disclaimer>
+        <language>ru</language>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum>http://xbmc.ru/forum/showthread.php?t=14937</forum>
+        <website>http://www.ntv.ru/</website>
+        <email>vl.maksime@gmail.com</email>
+        <source>https://github.com/vlmaksime/plugin.video.ntv.ru</source>
+        <news>v0.2.2 (2019-08-15)[CR]- Исправлены выявленные ошибки[CR][CR]v0.2.1 (2018-02-25)[CR]- Учтены изменения в API ресурса[CR][CR]v0.1.1 (2018-02-25)[CR]- Публичный релиз</news>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon>
 </addons>
