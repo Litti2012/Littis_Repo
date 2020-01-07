@@ -3413,9 +3413,71 @@ The SkinBase is constantly expanding and improving. Added are skins with Topics 
 	</extension>
 </addon>
 
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.hdfilme.cc"
+		name="[COLOR lime]HD-Filme.cc[/COLOR]"
+		version="1.0.0"
+		provider-name="Loki1979">
+	<requires>
+        <import addon="xbmc.python" version="2.7.13" />
+		<import addon="script.module.hsk.de"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary>060120201300</summary>
+	<description>Umsetzung der Website:
+https://hdfilme.cc</description>
+	<disclaimer></disclaimer>
+	<language>de</language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
 
-
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.hsk.de"
+		name="[COLOR blue]MODULE HSK DE[/COLOR]"
+		version="1.0.0"
+		provider-name="[COLOR blue]Loki1979[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.7.13" />
+	</requires>
+	<extension point="xbmc.python.module" library="resources/lib" />
+	<extension point="xbmc.addon.metadata">
+	<summary>[COLOR blue]030120202030[/COLOR]</summary>
+	<description></description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
 
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.filmix" version="1.2.7" name="Filmix" provider-name="vl.maksime">
@@ -3529,6 +3591,22 @@ The SkinBase is constantly expanding and improving. Added are skins with Topics 
         <assets>
             <icon>icon.png</icon>
         </assets>
+    </extension>
+</addon>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.vlmaksime" name="vl.maksime Add-on repository" version="2.0.0" provider-name="vl.maksime">
+    <extension point="xbmc.addon.repository">
+        <info>https://vlmaksime.github.io/repository.vlmaksime/addons.xml</info>
+        <checksum>https://vlmaksime.github.io/repository.vlmaksime/addons.xml.md5</checksum>
+        <datadir zip="true">https://vlmaksime.github.io/repository.vlmaksime/releases/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Install Add-ons from vl.maksime</summary>
+        <summary lang="ru">Установить дополнения от vl.maksime</summary>
+        <description lang="en">Download and install add-ons from the vl.maksime add-on repository.</description>
+        <description lang="ru">Загружайте и устанавливайте обновления из репозитория vl.maksime.</description>
+        <platform>all</platform>
     </extension>
 </addon>
 </addons>
