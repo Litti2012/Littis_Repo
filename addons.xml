@@ -2935,37 +2935,7 @@ https://www.facebook.com/OpenKD</description>
   <size>15279144</size>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="Littis.Repository" name="[B][COLOR skyblue]Littis [/B][/COLOR][B][COLOR silver]Repository[/B][/COLOR]" version="1.0.3" provider-name="Litti19928">
-	<extension point="xbmc.addon.repository" name="Littis Repository">
-		<info compressed="false">https://raw.githubusercontent.com/Litti2012/Littis_Repo/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Litti2012/Littis_Repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Litti2012/Littis_Repo/master</datadir>
-	</extension>
-    <extension point="xbmc.addon.metadata">
-	<summary></summary>
-	<description>[B][COLOR skyblue]!Der Ersteller des Repository,ist nicht der Ersteller der Addons und somit nicht Verantwortlich für dessen Inhalt![/B][/COLOR]
-[B][COLOR red]https://github.com/Litti2012/Littis_Repo
-https://www.facebook.com/groups/hskde/
-https://forum.kodiman.company[/B][/COLOR]</description>
-	<disclaimer></disclaimer>
-	<language></language>
-	<platform>all</platform>
-	<license></license>
-	<forum></forum>
-	<website></website>
-	<email></email>
-	<source></source>
-	<news></news>
-    <assets>
-		<icon>resources/icon.png</icon>
-		<fanart>resources/fanart.jpg</fanart>
-		<banner></banner>
-		<clearlogo></clearlogo>
-		<screenshot></screenshot>
-	</assets>
-	</extension>
-</addon>
+
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.program.Littis.Wizard" name="[B][COLOR indigo]Littis [/B][/COLOR][B][COLOR skyblue]Wizard[/B][/COLOR]" version="1.0.5" provider-name="Litti19928">
