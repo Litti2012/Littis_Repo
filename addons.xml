@@ -684,21 +684,22 @@ https://www.kinox.to</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.L0RE.dmax" name="DMAX Mediathek" version="1.0.2" provider-name="L0RE">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="plugin.video.L0RE.dmax" name="DMAX Mediathek" version="1.0.8" provider-name="L0RE">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
-		<import addon="service.L0RE.cron" version="0.2.1" optional="true"/>
+		<import addon="service.L0RE.cron" version="1.0.1" optional="true"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">DMAX Mediathek</summary>
-		<summary lang="de">DMAX Mediathek</summary>
-		<description lang="en">DMAX - the TV station. That's how it works here ! When and where you want: action, adventure, lifestyle. Real entertainment for real guys. Only on dmax.de of course !</description>
-		<description lang="de">DMAX - der TV Sender. So läuft das hier ! Wann und wo du willst: Action, Abenteuer, Lifestyle. Echte Unterhaltung für echte Kerle. Nur auf dmax.de natürlich !</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
-		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
+		<summary lang="de_DE">DMAX Mediathek</summary>
+		<summary lang="en_GB">DMAX Mediathek</summary>
+		<description lang="de_DE">DMAX - der TV Sender. So läuft das hier ! Wann und wo du willst: Action, Abenteuer, Lifestyle. Echte Unterhaltung für echte Kerle. Nur auf dmax.de natürlich !</description>
+		<description lang="en_GB">DMAX - the TV station. That's how it works here ! When and where you want: action, adventure, lifestyle. Real entertainment for real guys. Only on dmax.de of course !</description>
+		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
+		<disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 1991</license>
@@ -710,9 +711,9 @@ https://www.kinox.to</description>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-		<news>[B][COLOR orangered]Version 1.0.2  (21.01.2019)[/COLOR][/B] by realvito[CR]
-- fixed: Fehler bei Auflistung der Serien, wenn KEIN Plot vorhanden ist
-- fixed: Rubrik "Highlights" - Fehler beim Öffnen vereinzelter Sendungen, da KEINE ID vorhanden ist (Sendungen ohne ID werden herausgefiltert)
+		<news>[B][COLOR orangered]Version 1.0.8  (20.10.2019)[/COLOR][/B] by realvito[CR]
+- fixed: Titelanzeige aller Serien-Episoden fehlerhaft
+- fixed: Übertragung und Anzeige in die Medienbibliothek funktioniert nicht korrekt, wenn "&amp;" im Namen der Serie vorkommt
 		</news>
 	</extension>
 </addon>
@@ -2757,32 +2758,41 @@ https://www.facebook.com/OpenKD</description>
 	</extension>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.tvnow.de" name="TvNow" version="0.4.3" provider-name="Pati">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests" version="2.9.1"/>
-    <import addon="inputstream.adaptive" version="1.0.8"/>
-    <import addon="script.module.routing" version="0.2.0"></import>
-    <import addon="script.module.pydes" version="2.0.1"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="de">Plugin für TvNow Deutschland</summary>
-    <summary lang="en_gb">Plugin for TvNow Germany</summary>
-    <description lang="de"></description>
-    <description lang="en_gb"></description>
-    <disclaimer lang="en_gb"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="plugin.video.rtlnow" name="TVNOW - DE" version="2.0.4" provider-name="L0RE">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.common.plugin.cache" version="2.6.0" optional="true"/>
+		<import addon="inputstream.adaptive" version="2.0.10"/>
+		<import addon="script.module.inputstreamhelper" version="0.4.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Mediathek von TVNOW</summary>
+		<summary lang="en_GB">Mediathek of TVNOW</summary>
+		<description lang="de_DE">Bei TVNOW Serien, Shows und Filme online streamen.  Schau dir komplette Serien an, fiebere bei deinen liebsten Daily-Soaps mit oder staune bei spannenden Dokumentationen – alles wann und wo du willst auf Abruf.[CR]Viele Inhalte aus dem TV Programm siehst du bei TVNOW sogar schon vor TV-Aussstrahlung !</description>
+		<description lang="en_GB">Stream TVNOW series, shows and movies online. Watch complete series, enjoy your favorite daily soap operas or marvel at exciting documentaries - all when and where you want on demand.[CR]Many content from the TV program you see on TVNOW even before TV broadcast !</description>
+		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
+		<disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>https://www.kodinerds.net/index.php/Thread/57646-Release-TVNow-RTL-Watchbox-Vox-NTV-NOWUS-RTL2-Nitro/</forum>
+		<website>https://www.tvnow.de/</website>
+		<email></email>
+		<source>https://github.com/kodinerds/repo/tree/master/plugin.video.rtlnow</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>[B][COLOR orangered]Version 2.0.4  (09.01.2020)[/COLOR][/B] by realvito[CR]
+- fixed: Free-Token zum Abspielen von Videos wird NICHT gefunden
+- added: Premium-Kennzeichnung im Plot
+- added: Addon-Debug Schalter
+		</news>
+	</extension>
 </addon>
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -3020,22 +3030,27 @@ https://github.com/Litti2012/Littis_Repo[/B][/COLOR]</description>
 </addon>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.joyn" name="Joyn" version="2.2.0" provider-name="knaerzche">
+<addon id="plugin.video.joyn" name="Joyn" version="2.3.1" provider-name="knaerzche">
 	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="xbmc.python" version="2.26.0"/>
 		<import addon="inputstream.adaptive" version="2.2.21"/>
 		<import addon="script.module.inputstreamhelper" version="0.3.5"/>
 		<import addon="script.module.uepg" version="1.0.5"/>
 		<import addon="script.module.simplejson" version="3.3.0" optional="true"/>
+		<import addon="script.module.pydes" version="2.0.1" optional="true"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
+	<extension point="xbmc.service" library="service.py" start="login"/>
 	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>true</reuselanguageinvoker>
 		<summary lang="en_GB">Joyn Video On Demand  and Live TV</summary>
 		<summary lang="de_DE">Joyn Video On Demand and Live TV</summary>
 		<description lang="en_GB">Watch VOD content und Live TV provided by Joyn</description>
 		<description lang="de_DE">Video On Demand und Live TV von Joyn</description>
+		<disclaimer lang="en_GB">The use of this addon may violate the terms and conditions of Joyn GmbH - especially, but not exclusively, if it is used outside of Germany.</disclaimer>
+		<disclaimer lang="de_DE">Die Nutzung dieses Addon verstösst eventuell gegen die AGB der Joyn GmbH - insbesondere, aber nicht ausschliesslich, wenn es außerhalb von Deutschland verwendet wird</disclaimer>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -3052,16 +3067,31 @@ https://github.com/Litti2012/Littis_Repo[/B][/COLOR]</description>
 			<screenshot>resources/media/screenshot03.jpg</screenshot>
 		</assets>
 		<news>
-v2.2.0
-[new] implement sign-in
-[new} implement joyn bookmarks
-[new] implement 'Plus+'
-[new] implement MPAA-Pin setting
+v2.3.1
+improve addon overall addon performance by reusing languageinvoker/splitting into submodules/logging on demand only
+create singleton-instances on per addon-handle basis
+cache epg/landing-page in libjoyn-instance
+fix playback on OSX
+create fake-uuid for allwinner android sdk level 24 (importing uuid module crashes kodi)
+implement own get_node() and make it more unique (espacially on android)
+fix set sort as per settings on matrix
+use window.setProperty for asset_id instead of 'hiding' in it imdb-infolabel
+make sure only playback for this addon is tracked in service.py
+fix relogin issue, when decrypting username/password fails
+fix language files
+v2.3.0
+add api-based resume postions
+partly fixed live stream audio sync issue
+add save username/password option
+add option to show categories in main menu
+add ask-for-login dialog on first addon start
+show content based on current subscription
+add option to hightlight premium content
+rework some stuff
 
 		</news>
 	</extension>
 </addon>
-
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.module.tzlocal"
@@ -3667,6 +3697,42 @@ https://hdfilme.cc</description>
 			<fanart>resources/fanart.jpg</fanart>
 		</assets>
 		<size></size>
+	</extension>
+</addon>
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="plugin.video.filmstarts" name="FILMSTARTS.de" version="1.0.3" provider-name="L0RE">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="plugin.video.youtube" version="6.3.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Filme und Serien (Trailer, Making of, Teaser ...)</summary>
+		<summary lang="en_GB">Movies and Series (Trailer, Making of, Teaser ...)</summary>
+		<description lang="de_DE">FILMSTARTS.de ist das führende Online-Magazin rund um das Medium Film.[CR]In der FILMSTARTS-Datenbank befinden sich mittlerweile Informationen zu mehr als 70.000 Filmen.[CR]Schaue Trailer, Making of, Teaser etc. von Filmen und Serien, ausgewählt und zusammengestellt von http://www.filmstarts.de/.</description>
+		<description lang="en_GB">FILMSTARTS.de is the leading online magazine about the medium of Movie.[CR]In the meantime the FILMSTARTS database contains information of more than 70.000 movies.[CR]Watch trailer, making of, teaser, etc. of movies and series, selected and compiled by http://www.filmstarts.de/.</description>
+		<disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Anbietern des Inhalts.</disclaimer>
+		<disclaimer lang="en_GB">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>https://www.kodinerds.net/index.php/Thread/53743-RERelease-filmstarts/</forum>
+		<website>http://www.filmstarts.de/</website>
+		<email></email>
+		<source>https://github.com/kodinerds/repo/tree/master/plugin.video.filmstarts</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>[B][COLOR orangered]Version 1.0.3  (22.12.2019)[/COLOR][/B] by realvito[CR]
+- fixed: Trailer -> Trailer-Archiv sämtliche Unterordner ohne Inhalt
+- fixed: Kino -> Starttermin nach Wochen (kein Inhalt)
+- fixed: Serien -> Die populärsten Serien+Meisterwartete neue Staffeln+Neue Staffeln+Kommende Staffeln+Neu gestartete Serien+Neue Serien-Trailer (kein Inhalt)
+- added: Addon kompatibel mit PYTHON-Vers.3 gemacht (für KODI-19+) :-)
+		</news>
 	</extension>
 </addon>
 </addons>

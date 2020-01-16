@@ -1,0 +1,277 @@
+﻿# Kodi Media Center language file
+# Addon Name: Filmstarts
+# Addon id: plugin.video.filmstarts
+# Addon Provider: L0RE
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
+"POT-Creation-Date: 2018-12-28 22:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: realvito\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "Addon Summary"
+msgid "Movies and Series (Trailer, Making of, Teaser ...)"
+msgstr "Filme und Serien (Trailer, Making of, Teaser ...)"
+
+msgctxt "Addon Description"
+msgid "FILMSTARTS.de is the leading online magazine about the medium of Movie.[CR]In the meantime the FILMSTARTS database contains information of more than 70.000 movies.[CR]Watch trailer, making of, teaser, etc. of movies and series, selected and compiled by http://www.filmstarts.de/."
+msgstr "FILMSTARTS.de ist das führende Online-Magazin rund um das Medium Film.[CR]In der FILMSTARTS-Datenbank befinden sich mittlerweile Informationen zu mehr als 70.000 Filmen.[CR]Schaue Trailer, Making of, Teaser etc. von Filmen und Serien, ausgewählt und zusammengestellt von http://www.filmstarts.de/."
+
+# strings start
+# SETTINGS-CATEGORIES
+
+msgctxt "#30000"
+msgid "General"
+msgstr "Allgemein"
+
+# empty strings from id 30001 to 30109
+# SETTINGS-BUTTONS
+
+msgctxt "#30110"
+msgid "     Activate SSL-Certificate check [COLOR yellow](possibly switch off during Connection-Problems)[/COLOR]"
+msgstr "     SSL-Zertifikatsprüfung aktivieren [COLOR yellow](evtl. bei Verbindungsproblemen abschalten)[/COLOR]"
+
+msgctxt "#30111"
+msgid "     Additional next and previous Page-Display [COLOR yellow](Category: Cinema-Startdate)[/COLOR]"
+msgstr "     Zusätzliche nächste und vorherige Seitenanzeige [COLOR yellow](Rubrik: Kino-Starttermin)[/COLOR]"
+
+msgctxt "#30112"
+msgid "     Detailed Addon-Debug (otherwise only Minimal-Log)"
+msgstr "     Addon-Debug mit Details (sonst nur Minimal-Log)"
+
+# empty strings from id 30113 to 30229
+# SETTINGS-TITLES
+
+msgctxt "#30230"
+msgid "[B][COLOR ff0099ff]SSL - CERTIFICATE[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]SSL - ZERTIFIKAT[/COLOR][/B]"
+
+msgctxt "#30231"
+msgid "[B][COLOR ff0099ff]PAGE - DISPLAY[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]SEITEN - ANZEIGE[/COLOR][/B]"
+
+msgctxt "#30232"
+msgid "[B][COLOR ff0099ff]LOG[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]LOG[/COLOR][/B]"
+
+# empty strings from id 30233 to 30349
+# SETTINGS-DESCRIPTIONS
+
+# empty strings from id 30349 to 30500
+# WARNING/INFORMATION-MESSAGES-OK
+
+# empty strings from id 30500 to 30520
+# WARNING/INFORMATION-MESSAGES-NOTIFICATION
+
+msgctxt "#30521"
+msgid "Filmstarts : [COLOR red]!!! {0:s} - ERROR !!![/COLOR]"
+msgstr "Filmstarts : [COLOR red]!!! {0:s} - ERROR !!![/COLOR]"
+
+msgctxt "#30522"
+msgid "[COLOR red]An error has occured, please check *LOG* ![/COLOR]"
+msgstr "[COLOR red]Es ist ein Fehler aufgetreten, bitte *LOG* einsehen ![/COLOR]"
+
+msgctxt "#30523"
+msgid "[COLOR red]Unfortunately, there are NO entries :[/COLOR]"
+msgstr "[COLOR red]Leider gibt es KEINE Einträge :[/COLOR]"
+
+msgctxt "#30524"
+msgid "* [COLOR blue]In this Category[/COLOR] * at Filmstarts"
+msgstr "* [COLOR blue]In dieser Rubrik[/COLOR] * bei Filmstarts"
+
+# empty strings from id 30525 to 30600
+# PLUGIN-MAIN and SIDEMENU
+# INDEX - FOLDER
+
+msgctxt "#30601"
+msgid "Trailer"
+msgstr "Trailer"
+
+msgctxt "#30602"
+msgid "Cinema"
+msgstr "Kino"
+
+msgctxt "#30603"
+msgid "Series"
+msgstr "Serien"
+
+msgctxt "#30604"
+msgid "News"
+msgstr "News"
+
+msgctxt "#30608"
+msgid "FILMSTARTS Settings"
+msgstr "FILMSTARTS Einstellungen"
+
+# empty strings from id 30609 to 30619
+# TRAILER - FOLDER
+
+msgctxt "#30620"
+msgid "Most popular Trailer"
+msgstr "Beliebteste Trailer"
+
+msgctxt "#30621"
+msgid "Now in Cinema"
+msgstr "Aktuell im Kino"
+
+msgctxt "#30622"
+msgid "Commic soon to Cinema"
+msgstr "Demnächst im Kino"
+
+msgctxt "#30623"
+msgid "Newest Trailer"
+msgstr "Neueste Trailer"
+
+msgctxt "#30624"
+msgid "Trailer-Archive"
+msgstr "Trailer-Archiv"
+
+# empty strings from id 30625 to 30629
+# KINO - FOLDER
+
+msgctxt "#30630"
+msgid "Pre-premiere in Cinema"
+msgstr "Vorpremieren im Kino"
+
+msgctxt "#30631"
+msgid "Current Cinema Movies"
+msgstr "Aktuelle Kinofilme"
+
+msgctxt "#30632"
+msgid "New Movies this week in Cinema"
+msgstr "Neustart der Woche im Kino"
+
+msgctxt "#30633"
+msgid "Best voted Cinema Movies"
+msgstr "Die bestbewerteten Kinofilme"
+
+msgctxt "#30634"
+msgid "Start date per Week"
+msgstr "Starttermin nach Wochen"
+
+msgctxt "#30635"
+msgid "Best Movies"
+msgstr "Die besten Filme"
+
+msgctxt "#30636"
+msgid "Worst Movies"
+msgstr "Die schlechtesten Filme"
+
+msgctxt "#30637"
+msgid "Kids Movies"
+msgstr "Kinder Filme"
+
+# empty strings from id 30638 to 30649
+# SERIES - FOLDER
+
+msgctxt "#30650"
+msgid "Most liked Series"
+msgstr "Die beliebtesten Serien"
+
+msgctxt "#30651"
+msgid "Best voted Series"
+msgstr "Die bestbewerteten Serien"
+
+msgctxt "#30652"
+msgid "Most popular Series"
+msgstr "Die populärsten Serien"
+
+msgctxt "#30653"
+msgid "Most expected new Seasons"
+msgstr "Meisterwartete neue Staffeln"
+
+msgctxt "#30654"
+msgid "New Seasons: TV or ONLINE"
+msgstr "Neue Staffeln: TV oder ONLINE"
+
+msgctxt "#30655"
+msgid "Upcoming Seasons: TV or ONLINE"
+msgstr "Kommende Staffeln: TV oder ONLINE"
+
+msgctxt "#30656"
+msgid "New started Series"
+msgstr "Neu gestartete Serien"
+
+msgctxt "#30657"
+msgid "New Series-Trailer"
+msgstr "Neue Serien-Trailer"
+
+msgctxt "#30658"
+msgid "Series-Archive"
+msgstr "Serien-Archiv"
+
+# empty strings from id 30659 to 30669
+# NEWS - FOLDER
+
+msgctxt "#30670"
+msgid "5***** Stars"
+msgstr "5***** Sterne"
+
+msgctxt "#30671"
+msgid "Movie mistakes"
+msgstr "Fehlerteufel"
+
+msgctxt "#30672"
+msgid "Interviews"
+msgstr "Interviews"
+
+msgctxt "#30673"
+msgid "My favorite Movie scene"
+msgstr "Meine Lieblings-Filmszene"
+
+# empty strings from id 30674 to 30800
+# FILTER - FOLDER
+
+msgctxt "#30801"
+msgid "Filter by Genre"
+msgstr "Filter nach Genre"
+
+msgctxt "#30802"
+msgid "Filter by Language"
+msgstr "Filter nach Sprache"
+
+msgctxt "#30803"
+msgid "Filter by Format"
+msgstr "Filter nach Format"
+
+msgctxt "#30804"
+msgid "Filter by Years"
+msgstr "Filter nach Jahren"
+
+msgctxt "#30805"
+msgid "Filter by Countries"
+msgstr "Filter nach Ländern"
+
+msgctxt "#30810"
+msgid "[B][COLOR chartreuse]•  •  •  [/COLOR]Show Results[COLOR chartreuse]  •  •  •[/COLOR][/B]"
+msgstr "[B][COLOR chartreuse]•  •  •  [/COLOR]Ergebnisse anzeigen[COLOR chartreuse]  •  •  •[/COLOR][/B]"
+
+# empty strings from id 30811 to 30830
+# for REST OF ALL
+
+msgctxt "#30831"
+msgid " ~ actual"
+msgstr " ~ aktuell"
+
+msgctxt "#30832"
+msgid "[COLOR chartreuse]Next Page  >>>[/COLOR]"
+msgstr "[COLOR chartreuse]Nächste Seite  >>>[/COLOR]"
+
+msgctxt "#30833"
+msgid "[COLOR chartreuse]>>>[/COLOR] Next Date ({0:s}) [COLOR chartreuse]>>>[/COLOR]"
+msgstr "[COLOR chartreuse]>>>[/COLOR] Nächstes Datum ({0:s}) [COLOR chartreuse]>>>[/COLOR]"
+
+msgctxt "#30834"
+msgid "[COLOR chartreuse]<<<[/COLOR] Previous Date ({0:s}) [COLOR chartreuse]<<<[/COLOR]"
+msgstr "[COLOR chartreuse]<<<[/COLOR] Vorheriges Datum ({0:s}) [COLOR chartreuse]<<<[/COLOR]"
+
+msgctxt "#30835"
+msgid "  [COLOR orangered][NO TRAILER][/COLOR]"
+msgstr "  [COLOR orangered][KEIN TRAILER][/COLOR]"

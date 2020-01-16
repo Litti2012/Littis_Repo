@@ -14,19 +14,25 @@
 		<setting label="30109" type="action" id="uepg_settings"
 			action="RunPlugin(plugin://plugin.video.joyn/?mode=open_foreign_settings&amp;foreign_addon_id=script.module.uepg)"
 			enable="System.HasAddon(script.module.uepg)" option="close"/>
-
 	</category>
 	<category label="30352">
 		<setting label="30136" type="action" id="login" action="RunPlugin(plugin://plugin.video.joyn/?mode=login)" option="close"/>
 		<setting type="sep"/>
 		<setting label="30137" type="action" id="logout" action="RunPlugin(plugin://plugin.video.joyn/?mode=logout)" option="close"/>
 		<setting type="sep"/>
+		<setting label="30356" type="bool" id="save_encrypted_auth_data" default="false" enable="System.HasAddon(script.module.pydes)"/>
+		<setting type="sep"/>
 		<setting label="30689" type="number" id="mpaa_pin"/>
+		<setting type="sep"/>
+		<setting label="30360"  type="slider" id="start_set_resume_pos_secs" default="300" range="60,10,3000" option="int"/>
+		<setting label="30361"  type="slider" id="del_resume_pos_secs" default="60" range="0,10,600" option="int"/>
 	</category>
 	<category label="30001">
 		<setting label="30103" type="slider" id="max_lastseen" default="3" range="0,1,20" option="int"/>
 		<setting type="sep"/>
 		<setting label="30128" type="slider" id="max_recommendations" default="3" range="0,1,20" option="int"/>
+		<setting type="sep"/>
+		<setting label="30355" type="bool" id="show_categories_in_main_menu" default="false"/>
 		<setting type="sep"/>
 		<setting label="30129" type="bool" id="show_episodes_immediately" default="false"/>
 		<setting type="sep"/>
@@ -34,6 +40,9 @@
 		<setting type="sep"/>
 		<setting label="30111" type="select" id="season_order" lvalues="30123|30125|30126" default="2"/>
 		<setting label="30112" type="select" id="episode_order" lvalues="30123|30114|30113" default="2"/>
+		<setting type="sep"/>
+		<setting label="30353" type="bool" id="always_show_premium" default="false"/>
+		<setting label="30354" type="bool" id="highlight_premium" default="false"/>
 		<setting type="sep"/>
 		<setting label="30351" type="lsep"/>
 		<setting label="30122" type="bool" id="enable_viewmodes" default="true"/>
@@ -65,10 +74,18 @@
 		<setting type="sep"/>
 		<setting label="30135" type="select" id="joyn_platform" values="android|web|ios" default="web"/>
 		<setting type="sep"/>
+		<setting label="30357" type="bool" id="fixup_vod" default="true"/>
+		<setting label="30358" type="bool" id="fixup_live" default="true"/>
+		<setting label="30359" type="bool" id="force_local_manifest" default="false"/>
+		<setting type="sep"/>
 		<setting label="30101" type="bool" id="checkdrmcert" default="false"/>
 		<setting type="sep"/>
 		<setting label="30130" type="bool" id="force_playready" default="false" enable="System.Platform.Android"/>
 		<setting type="sep"/>
 		<setting label="30138" type="bool" id="force_clean_all_files" default="false"/>
+		<setting type="sep"/>
+		<setting label="30141" type="bool" id="fix_livestream_audio_sync" default="true"/>
+		<setting label="30142" type="slider" id="livestream_total_length" enable="eq(-1,true)" range="60,1,1200"  default="882" option="int" subsetting="true"/>
+		<setting label="30143" type="slider" id="livestream_offset" enable="eq(-2,true)"  range="12,1,60" default="14"  optione="int" subsetting="true"/>
 	</category>
 </settings>
