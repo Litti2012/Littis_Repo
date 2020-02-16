@@ -515,33 +515,6 @@ https://web.telegram.org/#/im?p=@kodimansgroup</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.Hardcore" name="[COLOR lime][/COLOR][B][COLOR lime]HARDCORE[/B][/COLOR]" version="1.5.9" provider-name="Litti19928">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.python.koding.aio" version="0.0.1"/>
-		<import addon="plugin.video.youtube" version="6.0.0"/>
-		<import addon="script.module.addon.common" version="2.0.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en"></summary>
-		<description lang="en"></description>
-		<platform></platform>
-		<forum></forum>
-		<website></website>
-		<news></news>
-		<genre>music,german</genre>
-		<video_guide></video_guide>
-		<video_preview></video_preview>
-		<assets>
-            <icon>icon.gif</icon>
-            <fanart>fanart.png</fanart>
-        </assets>
-	</extension>
-</addon>
-
 <addon id="plugin.video.Hardstyle" name="[COLOR lime][/COLOR][B][COLOR darkred]HARDSTYLE[/B][/COLOR]" version="1.0.1" provider-name="Litti19928">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
