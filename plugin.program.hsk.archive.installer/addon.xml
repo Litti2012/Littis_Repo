@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.hsk.archive.installer"
+		name="[COLOR blue]HSK-ARCHIVE-INSTALLER[/COLOR]"
+		version="1.0.0"
+		provider-name="Loki1979">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0" />
+		<import addon="script.module.inputstreamhelper" version="0.4.3"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary>15.02.2020 18:00</summary>
+	<description>ZIP Archive structure:
+
+addons/
+    plugin.xxx.xxx
+
+userdata/addon_data/
+    plugin.xxx.xxx</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
