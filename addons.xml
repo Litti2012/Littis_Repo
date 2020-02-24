@@ -541,32 +541,6 @@ https://web.telegram.org/#/im?p=@kodimansgroup</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.kinderserien" name="[B][COLOR plum]Kinder Serien[/B][/COLOR]" version="1.0.1" provider-name="Litti19928">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.python.koding.aio" version="0.0.1"/>
-		<import addon="plugin.video.youtube" version="6.0.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en"></summary>
-		<description lang="en"></description>
-		<platform>all</platform>
-		<forum></forum>
-		<website></website>
-		<news></news>
-		<genre></genre>
-		<video_guide></video_guide>
-		<video_preview></video_preview>
-		<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
-        </assets>
-	</extension>
-</addon>
-
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.kinox.to"
 		name="[COLOR blue]Kinox.to[/COLOR]"
