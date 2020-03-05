@@ -3872,4 +3872,33 @@ https://forum.kodiman.company[/B][/COLOR]</description>
 	</assets>
 	</extension>
 </addon>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.confluence.1080.aqua" version="4.5.0" name="[COLOR orange]Confluence 1080 Aqua[/COLOR]" provider-name="Litti19928">
+  <requires>
+    <import addon="xbmc.gui" version="5.14.0"/>
+  </requires>
+  <extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="False" effectslowdown="1.0">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <video_preview></video_preview>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.jpg</fanart>
+      <screenshot>resources/screenshot-01.jpg</screenshot>
+      <screenshot>resources/screenshot-02.jpg</screenshot>
+      <screenshot>resources/screenshot-03.jpg</screenshot>
+      <screenshot>resources/screenshot-04.jpg</screenshot>
+    </assets>
+    <news></news>
+  </extension>
+  <size></size>
+</addon>
 </addons>
