@@ -3214,39 +3214,6 @@ The SkinBase is constantly expanding and improving. Added are skins with Topics 
 </addon>
 
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.program.addons.updater"
-		name="[COLOR blue]Addons Updater[/COLOR]"
-		version="1.0.2.3"
-		provider-name="[COLOR blue]loki1979 | renexyz[/COLOR]">
-	<requires>
-		<import addon="xbmc.python" version="2.7.13" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="resources/pys/updater.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-	<summary></summary>
-	<description></description>
-	<disclaimer></disclaimer>
-	<language></language>
-	<platform>all</platform>
-	<license></license>
-	<forum></forum>
-	<website></website>
-	<email></email>
-	<source></source>
-	<news></news>
-	<assets>
-		<icon>resources/icon.png</icon>
-		<fanart>resources/fanart.jpg</fanart>
-		<banner></banner>
-		<clearlogo></clearlogo>
-		<screenshot></screenshot>
-	</assets>
-	</extension>
-</addon>
-
-<?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.filmix" version="1.2.8" name="Filmix" provider-name="vl.maksime">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
