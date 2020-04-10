@@ -3585,67 +3585,6 @@ userdata/addon_data/
 </addon>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.Litti"
-        name="[COLOR skyblue]MODULE Litti[/COLOR]"
-        version="1.0.1"
-        provider-name="Litti19928">
-  <requires>
-      <import addon="xbmc.python" version="2.25.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="resources/lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <minversion></minversion>
-    <summary></summary>
-    <description></description>
-	<license></license>
-	<forum></forum>
-	<website></website>
-	<email></email>
-	<source></source>
-	<news></news>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-		<banner></banner>
-		<clearlogo></clearlogo>
-		<screenshot></screenshot>
-	</assets>
-  </extension>
-</addon>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.yt_Youtubekids" name="[B][COLOR red]Youtube Kids[/B][/COLOR]" version="1.0.1" provider-name="Litti19928">
-  <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
-	<import addon="plugin.video.youtube" version="6.6.0"/>
-	<import addon="script.module.Litti"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="yt_Youtubekids.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary></summary>
-    <description></description>
-    <disclaimer></disclaimer>
-    <language>de</language> 
-    <platform></platform>
-    <license></license>
-    <forum></forum> 
-    <website></website> 
-    <email></email>
-    <source></source>
-    <news>
-    </news>
-    <assets>
-        <icon>resources/icon.png</icon>
-        <fanart>resources/fanart.jpg</fanart>
-        <screenshot></screenshot>
-    </assets>
-  </extension>
-</addon>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="littis.repository" name="[B][COLOR skyblue]Littis [/B][/COLOR][B][COLOR silver]Repository[/B][/COLOR]" version="1.0.8" provider-name="Litti19928">
 	<extension point="xbmc.addon.repository" name="Littis Repository">
 		<info compressed="false">https://raw.githubusercontent.com/Litti2012/Littis_Repo/master/addons.xml</info>
