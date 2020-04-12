@@ -2,7 +2,7 @@
 <addon id="script.module.slyguy" name="SlyGuy Shared" provider-name="SlyGuy" version="0.2.0">
   <requires>
     <!-- <import addon="xbmc.python" version="2.1.0"/> -->
-    <import addon="repository.slyguy"/>
+    <!-- <import addon="repository.slyguy"/> -->
   </requires>
   <extension point="xbmc.python.module" library="resources/lib" />
   <extension point="xbmc.service" library="service.py" start="login" />
