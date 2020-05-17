@@ -3292,6 +3292,19 @@ https://xcine.tv</description>
 </addon>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.lastship.artwork" version="2.0.4" name="Lastship Artwork" provider-name="Lastship Team">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Icons für das Lastship Addon</summary>
+		<description>Themen für Lastship werden seperat aktualisiert und gepflegt um die Verteilung des Addons einfacher zu machen</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.xstream" name="xStream" version="3.5.15~nightly2" provider-name="xStream-Team">
  <requires>
    <import addon="xbmc.python" version="2.14.0"/>
