@@ -3332,4 +3332,25 @@ https://xcine.tv</description>
 		<description lang="de">Empfängt viele Video URL's, die in XBMC/Kodi abspielbar sind</description>
 	</extension>
 </addon>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.lastship" name="Lastship Repository" version="1.0.6" provider-name="Lastship">
+	<extension point="xbmc.addon.repository" name="Lastship Repository">
+	<dir>
+        <info compressed="false">https://raw.github.com/lastship/Lastship-Repo/master/addons.xml</info>
+        <checksum>https://raw.github.com/lastship/Lastship-Repo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.github.com/lastship/Lastship-Repo/master</datadir>
+	</dir>
+    <dir>
+		<info compressed="false">https://github.com/lastship/lastship-common/raw/master/addons.xml</info>
+		<checksum>https://github.com/lastship/lastship-common/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/lastship/lastship-common/raw/master/zips/</datadir>
+    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">Lastship Repository</summary>
+		<description lang="de">Lastship Repository</description>
+		<platform>all</platform>
+   	</extension>
+</addon>
 </addons>
