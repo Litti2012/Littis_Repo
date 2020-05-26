@@ -481,40 +481,6 @@ Created by HSK-DE
     </extension>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.FilmTrailer" name="[B][COLOR bisque]Film Trailer[/B][/COLOR]" version="1.0.5" provider-name="Litti19928">
-  <requires>
-    <import addon="xbmc.python" version="2.20.0"/>
-    <import addon="plugin.video.youtube" version="6.5.2"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="addon.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="de_DE"></summary>
-    <description>Webseite:
-https://www.facebook.com/groups/hskde/?ref=bookmarks
-https://forum.kodiman.company
-https://web.telegram.org/#/im?p=@kodimansgroup</description>
-    <disclaimer lang="de_DE"></disclaimer>
-    <language>de</language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-    <news></news>
-    <assets>
-        <icon>resources/icon.png</icon>
-        <fanart>resources/fanart.png</fanart>
-        <banner></banner>
-        <clearlogo></clearlogo>
-        <screenshot></screenshot>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="plugin.video.Hardstyle" name="[COLOR lime][/COLOR][B][COLOR darkred]HARDSTYLE[/B][/COLOR]" version="1.0.1" provider-name="Litti19928">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
@@ -2754,61 +2720,6 @@ https://forum.kodiman.company[/B][/COLOR]</description>
 </addon>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Hardcore" name="[B][COLOR red]Hardcore[/B][/COLOR]" version="1.0.4" provider-name="Litti19928">
-  <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
-	<import addon="plugin.video.youtube" version="6.0.0"/>
-	<import addon="script.module.Litti"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="Hardcore.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary></summary>
-    <description></description>
-    <disclaimer></disclaimer>
-    <language></language>
-    <platform></platform>
-    <license></license>
-    <forum></forum> 
-    <website></website>
-    <source></source>
-    <news>
-    </news>
-    <assets>
-        <icon>resources/icon.gif</icon>
-        <fanart>resources/fanart.png</fanart>
-        <clearlogo></clearlogo>
-        <screenshot></screenshot>
-    </assets>
-  </extension>
-</addon>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="slyguy.disney.plus" name="Disney+" provider-name="Slyguy" version="0.1.0">
-  <requires>
-    <import addon="script.module.slyguy"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py" provides="video">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <description lang="en">Disney+ is the exclusive home for your favorite movies and TV shows from Disney, Pixar, Marvel, Star Wars, and National Geographic.
-
-Subscription required.</description>
-    <reuselanguageinvoker>true</reuselanguageinvoker>
-    <license></license>
-    <language></language>
-    <website></website>
-    <news>Profile support</news>
-    <assets>
-      <icon>icon.png</icon>
-      <fanart>fanart.jpg</fanart>
-    </assets>
-  </extension>
-</addon>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.module.slyguy" name="SlyGuy Shared" provider-name="SlyGuy" version="0.2.0">
   <requires>
     <!-- <import addon="xbmc.python" version="2.1.0"/> -->
@@ -3126,37 +3037,6 @@ https://hdfilme.cx</description>
 </addon>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.yt_Youtubekids" name="[B][COLOR red]Youtube Kids[/B][/COLOR]" version="1.0.5" provider-name="Litti19928">
-  <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
-	<import addon="plugin.video.youtube" version="6.6.0"/>
-	<import addon="script.module.Litti"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="yt_Youtubekids.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary></summary>
-    <description></description>
-    <disclaimer></disclaimer>
-    <language>de</language> 
-    <platform></platform>
-    <license></license>
-    <forum></forum> 
-    <website></website> 
-    <email></email>
-    <source></source>
-    <news>
-    </news>
-    <assets>
-        <icon>resources/icon.png</icon>
-        <fanart>resources/fanart.jpg</fanart>
-        <screenshot></screenshot>
-    </assets>
-  </extension>
-</addon>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.module.Litti"
         name="[COLOR skyblue]MODULE Litti[/COLOR]"
         version="1.0.5"
@@ -3277,38 +3157,6 @@ https://hdfilme.cx</description>
         <email>vl.maksime@gmail.com</email>
         <source>https://github.com/vlmaksime/plugin.video.filmix</source>
     </extension>
-</addon>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.hiphop" name="[B][COLOR darkblue]Hip[/B][/COLOR][B][COLOR blue]Hop[/B][/COLOR]" version="1.0.5" provider-name="Litti19928">
-  <requires>
-    <import addon="xbmc.python" version="2.20.0"/>
-    <import addon="plugin.video.youtube" version="6.6.0"/>
-	<import addon="script.module.Litti"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="hiphop.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="de_DE"></summary>
-    <description lang="de_DE"></description>
-    <disclaimer lang="de_DE"></disclaimer>
-    <language>de</language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-    <news></news>
-    <assets>
-        <icon>resources/icon.png</icon>
-        <fanart>resources/fanart.png</fanart>
-        <banner></banner>
-        <clearlogo></clearlogo>
-        <screenshot></screenshot>
-    </assets>
-  </extension>
 </addon>
 
 <?xml version="1.0"?>
