@@ -3312,4 +3312,134 @@ https://xcine.tv</description>
 	</assets>
 	</extension>
 </addon>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hardcore" name="[B][COLOR red]Hardcore[/B][/COLOR]" version="1.0.6" provider-name="Litti19928">
+  <requires>
+      <!--py3 compliant-->
+	  <!--<import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>-->
+    <import addon="xbmc.python" version="2.25.0"/>
+	<import addon="plugin.video.youtube" version="6.8.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR red]Created by Litti19928[/COLOR]</summary>
+    <description>[COLOR red]26.05.2020 21:20 PYTHON 2 AND 3[/COLOR]</description>
+    <disclaimer></disclaimer>
+    <language></language>
+    <platform></platform>
+    <license></license>
+    <forum></forum> 
+    <website></website>
+    <source></source>
+    <news>
+    </news>
+    <assets>
+        <icon>resources/icon.gif</icon>
+        <fanart>resources/fanart.png</fanart>
+        <clearlogo></clearlogo>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hiphop" name="[B][COLOR darkblue]Hip[/B][/COLOR][B][COLOR blue]Hop[/B][/COLOR]" version="1.0.6" provider-name="Litti19928">
+  <requires>
+      <!--py3 compliant-->
+	  <!--<import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>-->
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="plugin.video.youtube" version="6.8.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR blue]Created by Litti19928[/COLOR]</summary>
+    <description>[COLOR blue]26.05.2020 21:20 PYTHON 2 AND 3[/COLOR]</description>
+    <disclaimer></disclaimer>
+    <language>de</language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.png</fanart>
+        <banner></banner>
+        <clearlogo></clearlogo>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.yt_Youtubekids" name="[B][COLOR red]Youtube Kids[/B][/COLOR]" version="1.0.6" provider-name="Litti19928">
+  <requires>
+      <!--py3 compliant-->
+	  <!--<import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>-->
+    <import addon="xbmc.python" version="2.25.0"/>
+	<import addon="plugin.video.youtube" version="6.8.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR redCreated by Litti19928[/COLOR]</summary>
+    <description>[COLOR red]26.05.2020 12:09 PYTHON 2 AND 3[/COLOR]</description>
+    <disclaimer></disclaimer>
+    <language>de</language> 
+    <platform></platform>
+    <license></license>
+    <forum></forum> 
+    <website></website> 
+    <email></email>
+    <source></source>
+    <news>
+    </news>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.filmtrailer" name="[B][COLOR bisque]Film Trailer[/B][/COLOR]" version="1.0.6" provider-name="Litti19928">
+  <requires>
+      <!--py3 compliant-->
+	  <!--<import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>-->
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="plugin.video.youtube" version="6.8.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR blue]Created by Litti19928[/COLOR]</summary>
+    <description>[COLOR blue]26.05.2020 12:09 PYTHON 2 AND 3[/COLOR]</description>
+    <disclaimer></disclaimer>
+    <language>de</language>
+    <platform>all</platform>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+    <news></news>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.png</fanart>
+        <banner></banner>
+        <clearlogo></clearlogo>
+        <screenshot></screenshot>
+    </assets>
+  </extension>
+</addon>
 </addons>
