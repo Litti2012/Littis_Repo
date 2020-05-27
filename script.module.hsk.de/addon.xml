@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.module.hsk.de"
 		name="[COLOR blue]MODULE HSK DE[/COLOR]"
-		version="1.0.9"
+		version="1.1.1"
 		provider-name="[COLOR blue]Loki1979[/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.7.13" />
 	</requires>
 	<extension point="xbmc.python.module" library="resources/lib" />
 	<extension point="xbmc.addon.metadata">
-	<summary>[COLOR blue]130520201730[/COLOR]</summary>
+	<summary>[COLOR blue]270520201514[/COLOR]</summary>
 	<description></description>
 	<disclaimer></disclaimer>
 	<language></language>
