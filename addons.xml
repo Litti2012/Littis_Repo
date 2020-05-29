@@ -2950,4 +2950,80 @@ https://xcine.tv</description>
 	</assets>
 	</extension>
 </addon>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.hsk.wizard.pro"
+	name="[COLOR blue]HSK WIZARD PRO[/COLOR]"
+	version="1.0.0~beta3" 
+	provider-name="Loki1979">
+	<requires>
+		<!--py3 compliant-->
+		<!--<import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>-->
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.inputstreamhelper" version="0.4.7"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.webinterface"/>
+	<extension point="xbmc.addon.metadata">
+	<summary>[COLOR blue]Created by loki1979[/COLOR]</summary>
+	<description>[COLOR blue]22.05.2020 19:45 PYTHON 2 AND 3[/COLOR]</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.kinox.to"
+		name="[COLOR blue]Kinox.to[/COLOR]"
+		version="1.0.3"
+		provider-name="Loki1979 | HSK-DE">
+	<requires>
+		<import addon="xbmc.python" version="2.7.13" />
+		<import addon="script.module.hsk.de"/>
+        <!-- choose your resolver -->
+		<!-- <import addon="script.module.resolveurl"/> -->
+		<import addon="script.module.urlresolver"/>
+        <!-- choose your resolver -->
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary></summary>
+	<description>Website:
+https://www.kinox.to</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
 </addons>
