@@ -507,44 +507,6 @@ Created by HSK-DE
 	</extension>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.kinox.to"
-		name="[COLOR blue]Kinox.to[/COLOR]"
-		version="1.0.3"
-		provider-name="Loki1979 | HSK-DE">
-	<requires>
-		<import addon="xbmc.python" version="2.7.13" />
-        <!-- choose your resolver -->
-		<!-- <import addon="script.module.resolveurl"/> -->
-		<import addon="script.module.urlresolver"/>
-        <!-- choose your resolver -->
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-	<summary></summary>
-	<description>Website:
-https://www.kinox.to</description>
-	<disclaimer></disclaimer>
-	<language></language>
-	<platform>all</platform>
-	<license></license>
-	<forum></forum>
-	<website></website>
-	<email></email>
-	<source></source>
-	<news></news>
-	<assets>
-		<icon>resources/icon.png</icon>
-		<fanart>resources/fanart.jpg</fanart>
-		<banner></banner>
-		<clearlogo></clearlogo>
-		<screenshot></screenshot>
-	</assets>
-	</extension>
-</addon>
-
 <addon id="plugin.video.L0RE.Bollywood" name="Bollithek" version="1.1.6" provider-name="L0RE | FIX LOKI1979">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
