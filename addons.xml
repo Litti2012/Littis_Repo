@@ -908,41 +908,7 @@ https://www.kodiman.company/</description>
 	</extension>
 </addon>
 
-<addon id="repository.mancave" name="Man Cave Repo" version="1.1" provider-name="Man Cave Entertainment">
-	<extension point="xbmc.addon.repository" name="Man Cave Repository">
-			<info compressed="false">https://raw.githubusercontent.com/mancave22/ManCave/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/mancave22/ManCave/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/mancave22/ManCave/master/zips/</datadir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/marcelveldt/repository.marcelveldt/master/</datadir>
-        </dir>
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
-            <hashes>false</hashes>
-        </dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-        </dir>
-	    <dir>
-             <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-             <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-              <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-        </dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Man Cave Repo</summary>
-		<description lang="en">Man Cave</description>
-		<genre></genre>
-	</extension>
-</addon>
-
-    <addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.1.40" provider-name="Twiglet">
+<addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.1.40" provider-name="Twiglet">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -1022,28 +988,6 @@ https://www.kodiman.company/</description>
     </extension>
 </addon>
 
-<addon id="repository.shieldtvde" name="[B][COLORlime]SHIELDTV[/COLOR][/B][COLORwhite] DE -  KODI REPOSITORY[/COLOR]" version="1.0.2" provider-name="ShieldTV DE, SGK">
-    <extension point="xbmc.addon.repository" name="Kodi Addons + Repos">
-		<info compressed="false">http://shieldtv.de/Repo/daten/addons.xml</info>
-		<checksum>http://shieldtv.de/Repo/daten/addons.xml.md5</checksum>
-		<datadir zip="true">http://shieldtv.de/Repo/daten/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="de_DE">[COLORlime]NVIDIA Shield TV[/COLOR] Germany - Kodi Repository</summary>
-        <description lang="de_DE">[CR]Kontakt+Support:[CR][COLORlime]https://www.facebook.com/groups/shieldtvgermany[/COLOR][CR][CR][COLORred]Der Ersteller des Repository ist nicht der Ersteller der enthaltenen Addons/Repos und somit nicht verantwortlich für den Inhalt![/COLOR]</description>
-        <disclaimer lang="de_DE">Some parts of this repo may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-    	<platform>all</platform>
-		<assets>
-        <screenshot>resources/screenshot1.png</screenshot>
-        <screenshot>resources/screenshot2.png</screenshot>
-		<screenshot>resources/screenshot3.png</screenshot>
-		<screenshot>resources/screenshot4.png</screenshot>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="repository.skinbase.17" name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] Only Skins for 17" version="1.0.10" provider-name="[COLOR orange]GUIDO[/COLOR] | [COLOR skyblue]Kodiman[/COLOR] | [COLOR orange]HSK-DE[/COLOR]">
 	<extension point="xbmc.addon.repository" name="GUIDOS SKINBASE REPO">
 	<dir>
@@ -1076,25 +1020,6 @@ The SkinBase is constantly expanding and improving. Have fun Guido and Waller. K
 		</assets>
         <forum>https://www.facebook.com/groups/716337198478240/</forum>
         <website>https://www.facebook.com/groups/716337198478240/</website>
-	</extension>
-</addon>
-
-<addon id="repository.walle" name="Wallers-Skin-Repo" version="1.0.1" provider-name="[COLOR lime]Walle[/COLOR] | [COLOR aqua]Guido[/COLOR]">
-	<extension point="xbmc.addon.repository" name="Wallers REPO">
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/Waller-Skins/Waller-Repository/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Waller-Skins/Waller-Repository/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Waller-Skins/Waller-Repository/master/</datadir>
-	</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Wallers Repo</summary>
-		<description> Viel Spass und besucht mal meine Seite .
-https://waller-skins.jimdo.com/
-</description>
-		<platform>all</platform>
-        <forum></forum>
-        <website>https://waller-skins.jimdo.com/</website>
 	</extension>
 </addon>
 
