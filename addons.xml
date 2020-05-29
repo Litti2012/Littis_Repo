@@ -908,67 +908,6 @@ https://www.kodiman.company/</description>
 	</extension>
 </addon>
 
-<addon id="repository.octopus" name="[COLOR aqua]Octopus Repository[/COLOR]" version="0.1.40" provider-name="Twiglet">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="[COLOR aqua]Octopus Repository[/COLOR]">
-            <info compressed="false">http://octopus246.esy.es/_octopus/addons.xml</info>
-            <checksum>http://octopus246.esy.es/_octopus/addons.xml.md5</checksum>
-            <datadir zip="true">http://octopus246.esy.es/_octopus/</datadir>
-            <hashes>false</hashes>
-			<dir>
-                <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
-                <hashes>false</hashes>
-           </dir>
-           <dir>
-               <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-               <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-               <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-			   <hashes>false</hashes>
-          </dir>
-          <dir>
-              <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-              <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-              <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-			  <hashes>false</hashes>
-         </dir>
-		 <dir>
-		     <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
-		     <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
-		     <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
-	     </dir>
-         <dir>
-             <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
-             <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
-             <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
-			 <hashes>false</hashes>
-         </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Please do NOT post this Repository on Youtube, Facebook, Blogs or anywhere on the internet, thank you.</summary>
-            <description>This repository nor the addons within does not form part of the Kodi Media Centre. Please do not seek assistance with this repository or the addons from any of the Official Kodi Support Channels.The authors do not host any of the content in these addons and takes no responsibility for content found</description>
-            <platform>all</platform>
-            <genre>movies,usa</genre>
-        </extension>
-    </addon>
-
-<addon id="repository.rubtheduck" name="Rub The Duck Repo" version="1.0.0" provider-name="Publish3r">
-	<extension point="xbmc.addon.repository" name="Rub The Duck Repo">
-		<info compressed="true">https://rubtheduck.publish3r.com/addons.xml</info>
-		<checksum>https://rubtheduck.publish3r.com/addons.xml.md5</checksum>
-		<datadir zip="true">https://rubtheduck.publish3r.com/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en"></summary>
-		<description lang="en">[B][COLOR orange]RUB[/COLOR][COLOR blue] THE [/COLOR][COLOR orange]DUCK[/COLOR] [COLOR blue]REPOSITORY[/COLOR][CR]FOR ADULTS ONLY![/B][CR]https://is.gd/rubtheduck</description>
-		<platform>all</platform>
-                <website>https://is.gd/rubtheduck</website>
-	</extension>
-</addon>
-
 <addon id="repository.sgkodi" name="[B][COLORblue]SGK[/COLOR][/B][COLORwhite]ODI REPOSITORY[/COLOR]" version="1.1.3" provider-name="SGK">
     <extension point="xbmc.addon.repository" name="Kodi Addons + Repos">
 		<info compressed="false">http://sgkodi.de/SGK-Repo/Repo-Daten/addons.xml</info>
@@ -2213,45 +2152,6 @@ The SkinBase is constantly expanding and improving. Added are skins with Topics 
 			<screenshot>resources/screenshot-05.jpg</screenshot>
 			<screenshot>resources/screenshot-06.jpg</screenshot>
 		</assets>
-	</extension>
-</addon>
-
-<?xml version="1.0" encoding="UTF-8"?>
-    <addon id="repository.cdrepo" name="[COLOR deepskyblue]CellarDoorTV [COLOR white]Repo[/COLOR]" version="8.9" provider-name="[COLOR forestgreen][B]C[/COLOR][COLOR gold]D[/COLOR][COLOR ghostwhite]T[/COLOR][COLOR mediumblue]V[/B][/COLOR] [COLOR ghostwhite]Builds[/COLOR]">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="[COLOR forestgreen][B]C[/COLOR][COLOR gold]D[/COLOR][COLOR ghostwhite]T[/COLOR][COLOR mediumblue]V[/B][/COLOR] [COLOR ghostwhite]Repo">
-            <dir>
-				<info compressed="false">https://raw.githubusercontent.com/MrKoyu/repo/master/addons.xml</info>
-				<checksum>https://raw.githubusercontent.com/MrKoyu/repo/master/addons.xml.md5</checksum>
-				<datadir zip="true">https://raw.githubusercontent.com/MrKoyu/repo/master/zips</datadir>
-            <hashes>false</hashes>
-			</dir>
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/frenchdj/repository.frenchdj/master/_repo/</datadir>
-            </dir>
-            <dir>
-                <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-            </dir>
-			<dir>
-                <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
-            </dir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-		<summary lang="en">CellarDoorTV Repository</summary>
-		<description lang="en">[COLOR gold]The Future Of Home Entertainment[/COLOR][CR]Kodi Repository for [COLOR steelblue]CellarDoorTV[/COLOR][CR][COLOR steelblue]CellarDoorTV[/COLOR] [COLOR white]Repo[/COLOR] allows you to install CDTV Wizard Krypton and CDTV Wizard Leia to get access to the latest CDTV Custom Builds and more.</description>
-		<platform>all</platform>
-    <assets>
-        <icon>icon.gif</icon>
-        <fanart>fanart.jpg</fanart>      
-    </assets>
 	</extension>
 </addon>
 
