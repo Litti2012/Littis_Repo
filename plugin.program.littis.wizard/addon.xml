@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.littis.wizard" name="[B][COLOR indigo]Littis [/B][/COLOR][B][COLOR skyblue]Wizard[/B][/COLOR]" version="1.2.0" provider-name="Litti19928">
+  <requires>
+	<!--py3 compliant-->
+	<!--<import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>-->
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+		<summary lang="en">[B][COLOR indigo]Littis [/B][/COLOR][B][COLOR skyblue]Wizard[/COLOR]</summary>
+		<description>[COLOR blue]21.07.2020 22:30 PYTHON 2 AND 3[/COLOR]</description>
+		<disclaimer lang="en"></disclaimer>
+		<platform>all</platform>
+		<assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
