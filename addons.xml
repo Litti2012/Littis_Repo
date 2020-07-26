@@ -481,53 +481,6 @@ Created by HSK-DE
     </extension>
 </addon>
 
-<addon id="plugin.video.Hardstyle" name="[COLOR lime][/COLOR][B][COLOR darkred]HARDSTYLE[/B][/COLOR]" version="1.0.1" provider-name="Litti19928">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.python.koding.aio" version="0.0.1"/>
-		<import addon="plugin.video.youtube" version="5.0.0" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en"></summary>
-		<description lang="en"></description>
-		<platform>all</platform>
-		<forum></forum>
-		<website></website>
-		<news></news>
-		<genre>music</genre>
-		<video_guide></video_guide>
-		<video_preview></video_preview>
-		<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
-        </assets>
-	</extension>
-</addon>
-
-<addon id="plugin.video.L0RE.Bollywood" name="Bollithek" version="1.1.6" provider-name="L0RE | FIX LOKI1979">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.requests" version="2.12.4"/>
-        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="de">Bollithek von http://www.zeeone.de</summary>
-        <summary lang="de">Bollithek von http://www.zeeone.de</summary>
-        <language></language>
-        <description lang="en">Bollithek von http://www.zeeone.de</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>https://github.com/kodinerds/repo</source>
-        <forum>https://www.kodinerds.net/index.php/Thread/55451-L0REs-Blog/</forum>
-        <email>andreas at vogler dot name</email>
-    </extension>
-</addon>
 <addon id="plugin.video.netzkino_de" name="Netzkino" version="2.2.4" provider-name="L0RE">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
