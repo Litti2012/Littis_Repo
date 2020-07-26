@@ -2,7 +2,7 @@
 <addon id="plugin.video.yt_Youtubekids" name="[B][COLOR red]Youtube Kids[/B][/COLOR]" version="1.0.6" provider-name="Litti19928">
   <requires>
       <!--py3 compliant-->
-	  <!--<import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>-->
+	<!--<import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>-->
     <import addon="xbmc.python" version="2.25.0"/>
 	<import addon="plugin.video.youtube" version="6.8.2"/>
   </requires>
