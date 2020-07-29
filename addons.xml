@@ -2606,37 +2606,6 @@ https://www.kinox.to</description>
 	</extension>
 </addon>
 
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.hsk.de"
-		name="[COLOR blue]MODULE HSK DE[/COLOR]"
-		version="1.1.3"
-		provider-name="[COLOR blue]Loki1979[/COLOR]">
-	<requires>
-		<import addon="xbmc.python" version="2.7.13" />
-	</requires>
-	<extension point="xbmc.python.module" library="resources/lib" />
-	<extension point="xbmc.addon.metadata">
-	<summary>[COLOR blue]270520201514[/COLOR]</summary>
-	<description></description>
-	<disclaimer></disclaimer>
-	<language></language>
-	<platform>all</platform>
-	<license></license>
-	<forum></forum>
-	<website></website>
-	<email></email>
-	<source></source>
-	<news></news>
-	<assets>
-		<icon>resources/icon.png</icon>
-		<fanart>resources/fanart.jpg</fanart>
-		<banner></banner>
-		<clearlogo></clearlogo>
-		<screenshot></screenshot>
-	</assets>
-	</extension>
-</addon>
-
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.xcine.tv"
 		name="[COLOR gold]X-Cine.tv[/COLOR]"
