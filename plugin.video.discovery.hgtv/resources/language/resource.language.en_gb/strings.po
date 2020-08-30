@@ -1,0 +1,218 @@
+﻿# Kodi Media Center language file
+# Addon Name: HGTV Mediathek
+# Addon id: plugin.video.discovery.hgtv
+# Addon Provider: realvito
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
+"POT-Creation-Date: 2020-07-28 15:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: realvito\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# strings start
+# SETTINGS-CATEGORIES
+
+msgctxt "#30000"
+msgid "General"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Advanced"
+msgstr ""
+
+# empty strings from id 30002 to 30109
+# SETTINGS-BUTTONS
+
+msgctxt "#30110"
+msgid "     Play Videos with [COLOR yellow]*Inputstream.Adaptive*[/COLOR] (since KODI-17+ possible)"
+msgstr ""
+
+msgctxt "#30111"
+msgid "     Sorting of Episodes"
+msgstr ""
+
+msgctxt "#30112"
+msgid "Highest Episodenumber display on top"
+msgstr ""
+
+msgctxt "#30113"
+msgid "Other methods to choose from"
+msgstr ""
+
+msgctxt "#30114"
+msgid "     Use Thumb as Background-Fanart"
+msgstr ""
+
+msgctxt "#30115"
+msgid "     Show Addon-Settings in the overview"
+msgstr ""
+
+msgctxt "#30116"
+msgid "     Detailed Addon-Debug (otherwise only Minimal-Log)"
+msgstr ""
+
+# empty strings from id 30117 to 30229
+# SETTINGS-TITLES
+
+msgctxt "#30230"
+msgid "[B][COLOR ff0099ff]PLAY[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30231"
+msgid "[B][COLOR ff0099ff]EPISODES[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30232"
+msgid "[B][COLOR ff0099ff]FANART[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30233"
+msgid "[B][COLOR ff0099ff]SETTINGS[/COLOR][/B]"
+msgstr ""
+
+msgctxt "#30234"
+msgid "[B][COLOR ff0099ff]LOG[/COLOR][/B]"
+msgstr ""
+
+# empty strings from id 30235 to 30349
+# SETTINGS-DESCRIPTIONS
+
+# empty strings from id 30350 to 30500
+# WARNING/INFORMATION-MESSAGES-OK
+
+msgctxt "#30501"
+msgid "[COLOR orangered]ATTENTION : ... the required addon *[/COLOR][COLOR yellow]{0:s}[/COLOR][COLOR orangered]* is NOT installed !!![/COLOR]"
+msgstr ""
+
+# empty strings from id 30502 to 30520
+# WARNING/INFORMATION-MESSAGES-NOTIFICATION
+
+msgctxt "#30521"
+msgid "HGTV Mediathek : [COLOR red]!!! ID - [/COLOR][COLOR blue]{0:s}[/COLOR][COLOR red] - ERROR !!![/COLOR]"
+msgstr ""
+
+msgctxt "#30522"
+msgid "ERROR = [COLOR red]This Series is no longer in the HGTV-Mediathek ![/COLOR]"
+msgstr ""
+
+msgctxt "#30523"
+msgid "[COLOR red]Currently NO videos of :[/COLOR]"
+msgstr ""
+
+msgctxt "#30524"
+msgid "* [COLOR blue]{0:s}[/COLOR] * in the HGTV-Mediathek"
+msgstr ""
+
+msgctxt "#30525"
+msgid "My HGTV-Favourites :"
+msgstr ""
+
+msgctxt "#30526"
+msgid "* [COLOR blue]{0:s}[/COLOR] *[COLOR FF008B00] successfully added !!![/COLOR]"
+msgstr ""
+
+msgctxt "#30527"
+msgid "* [COLOR blue]{0:s}[/COLOR] *[COLOR red] has been deleted !!![/COLOR]"
+msgstr ""
+
+# empty strings from id 30528 to 30600
+# PLUGIN-MAIN and SIDEMENU
+
+msgctxt "#30601"
+msgid "* My HGTV-Favourites *"
+msgstr ""
+
+msgctxt "#30602"
+msgid "All Shows"
+msgstr ""
+
+msgctxt "#30603"
+msgid "Listing from A-Z"
+msgstr ""
+
+msgctxt "#30604"
+msgid "Subjects"
+msgstr ""
+
+msgctxt "#30605"
+msgid "Last Chance"
+msgstr ""
+
+msgctxt "#30606"
+msgid "New Shows"
+msgstr ""
+
+msgctxt "#30607"
+msgid "Shows sorted by popularity"
+msgstr ""
+
+msgctxt "#30608"
+msgid "HGTV Settings"
+msgstr ""
+
+msgctxt "#30609"
+msgid "Inputstream Settings"
+msgstr ""
+
+msgctxt "#30620"
+msgid "[COLOR chartreuse]{0:s} •  [/COLOR]{1:s}"
+msgstr ""
+
+msgctxt "#30621"
+msgid "{0:s}[COLOR orangered]  (ending soon)[/COLOR]"
+msgstr ""
+
+msgctxt "#30622"
+msgid "{0:s}[COLOR lime]  (new)[/COLOR]"
+msgstr ""
+
+msgctxt "#30623"
+msgid "[COLOR lime]Next Page  >>>[/COLOR]"
+msgstr ""
+
+msgctxt "#30624"
+msgid "[COLOR lime]  (new)[/COLOR]"
+msgstr ""
+
+msgctxt "#30625"
+msgid "[COLOR orangered]  (ending soon)[/COLOR]"
+msgstr ""
+
+msgctxt "#30626"
+msgid "[COLOR chartreuse]S{0:s}E{1:s}:[/COLOR]"
+msgstr ""
+
+msgctxt "#30627"
+msgid "[COLOR orangered]S{0:s}E{1:s}:[/COLOR]"
+msgstr ""
+
+msgctxt "#30628"
+msgid "[COLOR orangered]S00E{0:s}:[/COLOR]"
+msgstr ""
+
+msgctxt "#30629"
+msgid "From [COLOR chartreuse]{0:s}[/COLOR] to [COLOR orangered]{1:s}[/COLOR][CR][CR]"
+msgstr ""
+
+msgctxt "#30630"
+msgid "From [COLOR chartreuse]{0:s}[/COLOR][CR][CR]"
+msgstr ""
+
+msgctxt "#30651"
+msgid "[COLOR chartreuse]Add to HGTV-Favourites ...[/COLOR]"
+msgstr ""
+
+msgctxt "#30652"
+msgid "[COLOR orangered]... Remove from HGTV-Favourites[/COLOR]"
+msgstr ""
+
+msgctxt "#30654"
+msgid "[COLOR yellow]Add to HGTV-Playlist[/COLOR]"
+msgstr ""
