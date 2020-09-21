@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+	<category label="URL SETTINGS">
+		<setting label="[COLOR blue]URL[/COLOR]" type="labelenum" id="url_eum" values="https://www.kinox.to|https://kinos.to|https://kinox.tv|https://kinox.me|https://kinox.si|https://kinox.io|https://kinox.sx|https://kinox.am|https://kinox.nu|https://kinox.sg|https://kinox.gratis|https://kinox.mobi|https://kinox.sh|https://kinox.lol|https://kinox.wtf|https://kinox.fun|https://kinox.fyi|https://kinox.cloud|https://kinox.ai|https://kinox.click|https://kinox.tube|https://kinox.club|https://kinox.digital|https://kinox.direct|https://kinox.pub|https://kinox.express|https://kinox.party|https://kinox.lc|https://kinox.ms|https://kinox.mu|https://kinox.gs|https://kinox.bz|https://kinox.gy|https://kinox.af" default="https://kinos.to"/>
+	</category>
+</settings>
