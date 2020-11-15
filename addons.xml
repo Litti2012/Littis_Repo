@@ -2695,55 +2695,6 @@ The SkinBase is constantly being expanded and improved. Added to this are skins 
 </addon>
 
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.xstream" name="xStream" version="3.5.15.1" provider-name="xStream-Team">
- <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.urlresolver"/>
-    <import addon="script.module.six" version="1.11.0"/>
-    <import addon="repository.xstream" optional="true"/>
-    <import addon="script.module.metahandler" version="3.0.2.1" optional="true"/>
-    <import addon="script.module.inputstreamhelper" version="0.3.3" optional="true"/>
-    <!-- for remote debug -->
-    <import addon="script.module.pydevd-pycharm" optional="true"/>
- </requires>
- <extension point="xbmc.python.pluginsource" library="default.py">
-   <provides>video</provides>
- </extension>
-     <extension point="xbmc.service" library="service.py" start="startup" /> <!-- ka: die Updates werden gleich schon beim Start von Kodi ausgeführt! -->
- <extension point="xbmc.addon.metadata">
-   <summary lang="de">Watch xStream!</summary>
-   <description lang="de">Mit diesem Addon kannst du auf alle angebotenen Streams verschiedenster deutschen Quellen zugreifen</description>
-   <disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
-   <source>https://github.com/streamxstream/plugin.video.xstream</source>
-   <license>GNU GPLv3</license>
-   <platform>all</platform>
-   <news>
-3.5.15.1
-  28.06.2020
-  Update:
-- Add script.module.six support
-
-3.5.15
-  02.06.2020
-  Update:
-- Update Manager (Change URLResolver master auf nightly branche)
-- [pureanime] fix hoster
-- [Flimmerstube] fix
-- Languages strings.po und strings.xml (Benutername umgestellt auf E-Mail für s.to)
-- [topstreamfilm] add again fix hoster
-- UpdateManager add 'enforce Update'
-   </news>
-   <assets>
-     <icon>icon.png</icon>
-     <fanart>fanart.jpg</fanart>
-     <screenshot>resources/art/screenshot-01.jpg</screenshot>
-     <screenshot>resources/art/screenshot-02.jpg</screenshot>
-   </assets>
- </extension>
-</addon>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.module.inputstreamhelper" name="InputStream Helper" version="0.5.0" provider-name="emilsvennesson, dagwieers, mediaminister, horstle">
   <requires>
     <!--py3 compliant-->
@@ -2978,31 +2929,6 @@ https://www.kinox.to</description>
 		<screenshot></screenshot>
 	</assets>
 	</extension>
-</addon>
-
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.module.urlresolver" name="URLResolver" version="5.1.6~nightly1" provider-name="Resolver Team">
-    <requires>
-        <import addon="script.module.six" version="1.11.0"/>
-	<!--<import addon="script.module.kodi-six" />-->
-        <import addon="plugin.video.youtube" optional="true" />
-        <import addon="script.module.python.twitch" optional="true" />
-        <import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-        <import addon="plugin.video.gdrive" optional="true" />
-    	<!-- for remote debug -->
-    	<import addon="script.module.pydevd-pycharm" optional="true"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="de">URLResolver wird für die Stream Wiedergabe benötigt</summary>
-		<description lang="de">Empfängt viele Video URL's, die in XBMC/Kodi abspielbar sind</description>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
 </addon>
 
 <?xml version="1.0" encoding="UTF-8"?>
